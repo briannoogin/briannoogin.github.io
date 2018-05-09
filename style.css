@@ -75,6 +75,10 @@ html, body {
 .fa-linkedin{
   color: #0077B5;
 }
+.fa-github:hover,
+.fa-linkedin:hover{
+  color: #d5d5d5
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
