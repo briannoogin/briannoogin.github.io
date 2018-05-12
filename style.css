@@ -8,6 +8,10 @@ html, body {
 }
 .navbar {
   padding: .8rem;
+  border-bottom: 1px solid #d5d5d5
+}
+.nav-link{
+  color: #0037FF
 }
 .navbar-nav li{
   padding-right : 20px
@@ -26,12 +30,12 @@ html, body {
 }
 .carousel-caption h1 {
   font-size : 500%;
-  text-transform: uppercase;
+  font-weight: 400;
   text-shadow: 1px 1px 15px #000;
 }
 .carousel-caption h3{
-  font-size: 200%;
-  font-weight: 500;
+  font-size: 175%;
+  font-weight: 400;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
@@ -61,7 +65,7 @@ html, body {
 .fa-css3{
   color: #2163af;
 }
-.fa-code, .fa-bold, .fa-css3{
+.fa-code, .fa-bold, .fa-css3, .fa-twitter, .fa-sign-language,.fa-user-md{
   font-size: 4em;
   margin: 1rem;
 }
@@ -75,9 +79,28 @@ html, body {
 .fa-linkedin{
   color: #0077B5;
 }
+.fa-twitter{
+  color: #1DA1F2;
+}
+.fa-sign-language{
+  color: #000
+}
+.fa-user-md{
+  color: #EA80B0
+}
 .fa-github:hover,
-.fa-linkedin:hover{
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-sign-language:hover,
+.fa-user-md:hover{
   color: #d5d5d5
+}
+.img-thumbnail{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width:50%;
+  height:100%;
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -89,8 +112,15 @@ html, body {
 @media (max-width: 576px) {
 
 }
-
-
+/*-- Scale font size --*/
+@media (max width: @screen-xs)
+{
+  body{font-size: 50px;}
+}
+@media (max width: @screen-sm)
+{
+  body{font-size: 100px;}
+}
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
