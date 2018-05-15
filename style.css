@@ -112,24 +112,38 @@ html, body {
   line-height: 1.75em;
   font-size: 20pt;
 }
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
+@media(max-width: 768px) {
+  .carousel-caption{
+    top: 45%;
   }
-@media (max-width: 768px) {
-
+  .carousel-caption h1{
+    font-size: 350%;
+  }
+  .carousel-caption h3{
+    font-size:140%;
+  }
+  .carousel-caption .btn
+  {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
 }
-@media (max-width: 576px) {
-
-}
-/*-- Scale font size --*/
-@media (max width: @screen-xs)
+@media (max-width: 576px)
 {
-  body{font-size: 50px;}
-}
-@media (max width: @screen-sm)
-{
-  body{font-size: 100px;}
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-caption h1{
+    font-size: 250%;
+  }
+  .carousel-caption h3{
+    font-size:110%;
+  }
+  .carousel-caption .btn
+  {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
