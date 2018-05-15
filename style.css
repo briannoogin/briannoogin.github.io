@@ -145,6 +145,23 @@ html, body {
     padding: 4px 8px;
   }
 }
+@media (max-width: 400px)
+{
+  .carousel-caption{
+    top: 35%;
+  }
+  .carousel-caption h1{
+    font-size: 200%;
+  }
+  .carousel-caption h3{
+    font-size:100%;
+  }
+  .carousel-caption .btn
+  {
+    font-size: 80%;
+    padding: 2px 4px;
+  }
+}
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
