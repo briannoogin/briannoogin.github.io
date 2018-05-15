@@ -13,11 +13,8 @@ html, body {
 .nav-item{
   color: #0037FF
 }
-.navbar-nav li{
-  padding-right : 20px
-}
 .nav-link{
-  font-size: 1.05em !important
+  font-size: 1.05em !important;
 }
 .carousel-inner img{
   width: 100%;
@@ -38,12 +35,6 @@ html, body {
   font-weight: 400;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
-}
-.btn-primary{
-
-}
-.btn-primary:hover{
-
 }
 .welcome{
   width: 75%;
