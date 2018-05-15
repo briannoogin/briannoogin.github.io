@@ -62,7 +62,9 @@ html, body {
 }
 .social a{
   font-size: 4.5em;
-  padding: 3rem;
+  padding: 10rem;
+  text-decoration:none;
+
 }
 .fa-github{
   color: #000;
@@ -157,10 +159,43 @@ html, body {
 [class*="col-"] {
     padding: 1rem;
 }
+/*-- devpost font from icomoon--*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('img/icomoon.eot?kxim24');
+  src:  url('img/icomoon.eot?kxim24#iefix') format('embedded-opentype'),
+    url('img/icomoon.ttf?kxim24') format('truetype'),
+    url('img/icomoon.woff?kxim24') format('woff'),
+    url('img/icomoon.svg?kxim24#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-
+.icon-devpost_medium:before {
+  content: "\e900";
+}
+.icon-devpost_medium
+{
+  color: #163E52;
+}
+.icon-devpost_medium:hover {
+  color: #d5d5d5;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
