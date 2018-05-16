@@ -8,6 +8,10 @@ html, body {
   width: 100%;
   font-family : 'Poppins', serif;
   color: #222;
+  overflow-x: hidden;
+}
+footer{
+  overflow-x: hidden;
 }
 .navbar {
   padding: .8rem;
@@ -65,9 +69,8 @@ html, body {
 }
 .social a{
   font-size: 4.5em;
-  padding: 10rem;
+  padding: 3rem;
   text-decoration:none;
-
 }
 .fa-github{
   color: #000;
@@ -108,6 +111,13 @@ html, body {
   line-height: 1.75em;
   font-size: 20pt;
 }
+@media(max-width: 992px)
+{
+  .social a{
+    font-size: 4.25em;
+    padding: 2.25rem;
+  }
+}
 @media(max-width: 768px) {
   .carousel-caption{
     top: 45%;
@@ -122,6 +132,10 @@ html, body {
   {
     font-size: 95%;
     padding: 8px 14px;
+  }
+  .social a{
+    font-size: 3.25em;
+    padding: 1.5rem;
   }
 }
 @media (max-width: 576px)
@@ -140,6 +154,10 @@ html, body {
     font-size: 90%;
     padding: 4px 8px;
   }
+  .social a{
+    font-size: 2.75em;
+    padding: 1rem;
+  }
 }
 @media (max-width: 400px)
 {
@@ -156,6 +174,10 @@ html, body {
   {
     font-size: 80%;
     padding: 2px 4px;
+  }
+  .social a{
+    font-size: 2.5em;
+    padding: .75rem;
   }
 }
 /*--- Bootstrap Padding Fix --*/
