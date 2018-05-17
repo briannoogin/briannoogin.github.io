@@ -64,10 +64,14 @@ footer{
 .fa-css3{
   color: #2163af;
 }
-.fa-code, .fa-bold, .fa-css3, .fa-twitter, .fa-sign-language,.fa-user-md{
+.fa-code, .fa-bold, .fa-css3{
   font-size: 4em;
   margin: 1rem;
 }
+ .fa-twitter, .fa-sign-language,.fa-user-md{
+   font-size: 10em;
+   margin: 1rem;
+ }
 .social a{
   font-size: 4.5em;
   padding: 3rem;
@@ -111,6 +115,9 @@ footer{
 .intro{
   line-height: 1.75em;
   font-size: 20pt;
+}
+.modal-open,.btn:focus{
+  outline: none !important
 }
 @media(max-width: 992px)
 {
