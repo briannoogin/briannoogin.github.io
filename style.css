@@ -121,7 +121,7 @@ footer{
     font-size: 4.25em;
     padding: 2.25rem;
   }
-  .navbar-brand h1
+  .navbar-brand h2
   {
     font-size: 150%;
   }
@@ -145,7 +145,7 @@ footer{
     font-size: 3.25em;
     padding: 1.5rem;
   }
-  .navbar-brand h1
+  .navbar-brand h2
   {
     font-size: 100%;
   }
