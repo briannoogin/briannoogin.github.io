@@ -10,6 +10,10 @@ html, body {
   color: #222;
   overflow-x: hidden;
 }
+*:focus
+{
+  outline: 0;
+}
 footer{
   overflow-x: hidden;
 }
