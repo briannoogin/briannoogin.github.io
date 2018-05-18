@@ -59,17 +59,17 @@ footer{
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
-.fa-code{
-  color: #e54d26
+.fa-html5{
+  color: #e34f26;
 }
 .fa-bold{
-  color: #563d7c
+  color: #563d7c;
 }
 .fa-css3{
   color: #2163af;
 }
-.fa-code, .fa-bold, .fa-css3{
-  font-size: 4em;
+.fa-html5, .fa-bold, .fa-css3{
+  font-size: 7em;
   margin: 1rem;
 }
  .fa-twitter, .fa-sign-language,.fa-user-md,.fa-lightbulb,.fa-rocket{
