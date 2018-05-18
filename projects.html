@@ -18,8 +18,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
-  <link rel="shortcut icon" href="img/favicon3.ico" type="image/x-icon">
-  <link rel="icon" href="img/favicon3.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <!-- Navigation -->
@@ -70,6 +70,20 @@
           Research Project
         </p>
   		</div>
+			<div class = "col-xs-12 col-sm-4 col-md-4 modal-container">
+  			<a href = "#modal4" class = "modal-link" data-toggle = "modal"> <i class = "fas fa-lightbulb"></i></a>
+  			<h3>App4ThT</h3>
+        <p class = "text-muted">
+          Hackathon Project
+        </p>
+  		</div>
+			<div class = "col-xs-12 col-sm-4 col-md-4 modal-container">
+  			<a href = "#modal5" class = "modal-link" data-toggle = "modal"> <i class = "fas fa-rocket"></i></a>
+  			<h3>Ginger Rail</h3>
+        <p class = "text-muted">
+        	Hackathon Project
+        </p>
+  		</div>
   	</div>
   </div>
 	<!--Modals-->
@@ -79,15 +93,17 @@
 			<div class = "modal-content">
 				<!-- Modal header-->
 				<div class = "modal-header">
-					<h4 class = "model-title">ArcAngel</h4>
+					<h4 class = "model-title">ArcAngel (Jan 2018)</h4>
 					<button type = "button" class = "close" data-dismiss = "modal">&times;</button>
 				</div>
 				<!-- Modal body-->
 				<div class = "modal-body">
 					<p>
-						Android app that aggregated and mapped tweets to show location of interest for first-responders.
+						Android app that aggregated and mapped tweets onto a heat map to show location of interest for first-responders.
+						Tweets were collected through a Matlab implementation of the Twitter API.
 	          Developed with Matlab, Java, and Esri API. Developed at TAMUHACK 2018. Won Best Use of ESRI API.
 					</p>
+					<img class = "modal-img" src = "img/arcangel.png" alt = "Demonstration of ArcAngel" />
 				</div>
 				<!--Modal footer -->
 				<div class = "modal-footer">
@@ -109,9 +125,15 @@
 				<!-- Modal body-->
 				<div class = "modal-body">
 					<p>
-						Utilized a convolutional neural network and color segmentation techniques to classify the ASL alphabet except for J and Z.
+						Utilized a convolutional neural network (CNN) and mean-shift to classify the ASL alphabet except for J and Z.
+						Mean-shift tracks the hand with a bounding box by passing an initial calibration image.
+						Through the bounding box, a cropped image of the hand is obtained.
+						The cropped hand is then sent to the CNN which was trained on hand images.
+						The CNN then outputs the most likely letter.
 						Developed with Python, Keras, and OpenCV.
+						Developed for ACM Projects and won second place.
 					</p>
+					<img class = "modal-img" src = "img/hand.gif" alt = "Demonstration of ASL Project"/>
 				</div>
 				<!--Modal footer -->
 				<div class = "modal-footer">
@@ -134,12 +156,65 @@
 				<div class = "modal-body">
 					<p>
 						Used an ensemble of shallow neural networks to classify whether a tumor is benign or malignant.
-						Data collected from University of Wisconsin. Developed with Matlab.
+						Used statistical methods such as non-parametric bootstrapping to improve model perfomance.
+						Used performance measures such as Aikake information criterion (AIC) and area under curve (AUC) to assess model performance.
+						Data collected from University of Wisconsin. Developed with Matlab. Project conducted at University of Texas at Dallas.
 					</p>
 				</div>
 				<!--Modal footer -->
 				<div class = "modal-footer">
 					<a href = "https://github.com/briannoogin/Neural-Network-Science-Fair-Research" class = "btn btn-info" role = "button">GitHub</a>
+					<button type = "button" class = "btn btn-danger" data-dismiss = "modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--App4ThT-->
+	<div class = "modal fade" id = "modal4">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<!-- Modal header-->
+				<div class = "modal-header">
+					<h4 class = "model-title">App4ThT</h4>
+					<button type = "button" class = "close" data-dismiss = "modal">&times;</button>
+				</div>
+				<!-- Modal body-->
+				<div class = "modal-body">
+					<p>
+						Website platform proof of concept for the crowdsourcing of project ideas.
+						Developed with HTML, CSS, and JavaScript. Project created at IncubateX DFW and won Best of Solera.
+					</p>
+					<img class = "modal-img" src = "img/app4tht.png" alt = "Demonstration of App4Tht" />
+				</div>
+				<!--Modal footer -->
+				<div class = "modal-footer">
+					<a href = "https://github.com/pyrito/app4tht" class = "btn btn-info" role = "button">GitHub</a>
+					<button type = "button" class = "btn btn-danger" data-dismiss = "modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Ginger Rail-->
+	<div class = "modal fade" id = "modal5">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<!-- Modal header-->
+				<div class = "modal-header">
+					<h4 class = "model-title">Ginger Rail</h4>
+					<button type = "button" class = "close" data-dismiss = "modal">&times;</button>
+				</div>
+				<!-- Modal body-->
+				<div class = "modal-body">
+					<p>
+						Used an Arduino, servos, and a 2 L soda bottle to make a bottle rocket launcher. The servos enabled the launcher to move based on joystick commands.
+					  The Arduino controlled an mechanism that had a metal pin for launching the rocket launcher. When a launch command is activated by the controls, the pin punctures
+						the cap of the bottle is punctured, and the bottle is launched. Project was a proof of concept of teaching computer science principles through low-cost materials.
+						Arduino Project created at HackDFW.
+					</p>
+				</div>
+				<!--Modal footer -->
+				<div class = "modal-footer">
+					<a href = "https://devpost.com/software/ginger-rail" class = "btn btn-info" role = "button">Devpost</a>
 					<button type = "button" class = "btn btn-danger" data-dismiss = "modal">Close</button>
 				</div>
 			</div>

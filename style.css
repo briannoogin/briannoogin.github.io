@@ -72,7 +72,7 @@ footer{
   font-size: 4em;
   margin: 1rem;
 }
- .fa-twitter, .fa-sign-language,.fa-user-md{
+ .fa-twitter, .fa-sign-language,.fa-user-md,.fa-lightbulb,.fa-rocket{
    font-size: 10em;
    margin: 1rem;
  }
@@ -94,13 +94,21 @@ footer{
   color: #000
 }
 .fa-user-md{
-  color: #EA80B0
+  color: #EA80B0;
+}
+.fa-lightbulb{
+  color: #FFFA67;
+}
+.fa-rocket{
+  color: #327140;
 }
 .fa-github:hover,
 .fa-linkedin:hover,
 .fa-twitter:hover,
 .fa-sign-language:hover,
-.fa-user-md:hover{
+.fa-user-md:hover,
+.fa-lightbulb:hover,
+.fa-rocket:hover{
   color: #d5d5d5
 }
 .img-thumbnail{
@@ -119,6 +127,16 @@ footer{
 .intro{
   line-height: 1.75em;
   font-size: 20pt;
+}
+.modal-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50%;
+  height:100%;
 }
 .modal-footer{
   margin: auto;
