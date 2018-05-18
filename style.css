@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html{
   overflow-x: hidden;
@@ -234,8 +233,7 @@ footer{
   src:  url('img/icomoon.eot?kxim24');
   src:  url('img/icomoon.eot?kxim24#iefix') format('embedded-opentype'),
     url('img/icomoon.ttf?kxim24') format('truetype'),
-    url('img/icomoon.woff?kxim24') format('woff'),
-    url('img/icomoon.svg?kxim24#icomoon') format('svg');
+    url('img/icomoon.woff?kxim24') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -243,7 +241,6 @@ footer{
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -265,7 +262,6 @@ footer{
 .icon-devpost_medium:hover {
   color: #d5d5d5;
 }
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
