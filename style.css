@@ -1,8 +1,4 @@
 
-html{
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
 html, body {
   height : 100%;
   width: 100%;
@@ -10,12 +6,14 @@ html, body {
   color: #222;
   overflow-x: hidden;
   overflow-y: scroll;
+  --webkit-overflow-scrolling: touch;
 }
 *:focus
 {
   outline: 0;
 }
 footer{
+  --webkit-overflow-scrolling: touch;
   overflow-y: scroll;
   overflow-x: hidden;
 }
