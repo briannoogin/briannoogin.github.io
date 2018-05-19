@@ -80,8 +80,8 @@ footer{
    margin: 1rem;
  }
 .social a{
-  font-size: 4.5em;
-  padding: 3rem;
+  font-size: 2.5em;
+  padding: .5rem;
   text-decoration:none;
 }
 .fa-github{
@@ -146,10 +146,6 @@ footer{
 }
 @media(max-width: 992px)
 {
-  .social a{
-    font-size: 4.25em;
-    padding: 2.25rem;
-  }
   .navbar-brand h2
   {
     font-size: 150%;
@@ -169,10 +165,6 @@ footer{
   {
     font-size: 95%;
     padding: 8px 14px;
-  }
-  .social a{
-    font-size: 3.25em;
-    padding: 1.5rem;
   }
   .navbar-brand h2
   {
@@ -198,10 +190,6 @@ footer{
     font-size: 90%;
     padding: 4px 8px;
   }
-  .social a{
-    font-size: 2.75em;
-    padding: 1rem;
-  }
   .nav-link{
     font-size: 1.05em !important;
   }
@@ -221,10 +209,6 @@ footer{
   {
     font-size: 80%;
     padding: 2px 4px;
-  }
-  .social a{
-    font-size: 2.5em;
-    padding: .75rem;
   }
 }
 /*--- Bootstrap Padding Fix --*/
