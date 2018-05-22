@@ -21,11 +21,11 @@ footer{
   color: #696969!important;
 }
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a.active{
-  color: #3B5998 !important;
+  color: #27408B !important;
 }
 .colored
 {
-  color: #3B5998;
+  color: #27408B;
 }
 .nav-link{
   font-size: 1.15em !important;
@@ -148,6 +148,20 @@ footer{
   .navbar-brand h2
   {
     font-size: 150%;
+  }
+  .carousel-caption{
+    top: 47.5%;
+  }
+  .carousel-caption h1{
+    font-size: 375%;
+  }
+  .carousel-caption h3{
+    font-size:150%;
+  }
+  .carousel-caption .btn
+  {
+    font-size: 97%;
+    padding: 8px 14px;
   }
 }
 @media(max-width: 768px) {
