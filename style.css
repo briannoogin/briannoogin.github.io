@@ -13,6 +13,10 @@ footer{
   overflow-x: hidden;
   padding-top: 2rem;
 }
+figcaption{
+  text-align:center;
+  color: #696969;
+}
 .navbar {
   padding: .8rem;
   border-bottom: 1px solid #d5d5d5;
@@ -137,7 +141,7 @@ footer{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 50%;
+  width: 75%;
   height:100%;
 }
 .modal-footer{
