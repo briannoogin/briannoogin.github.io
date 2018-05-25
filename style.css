@@ -11,7 +11,7 @@ html, body {
 }
 footer{
   overflow-x: hidden;
-  padding-top: 2rem;
+  padding-top: 0;
 }
 figcaption{
   text-align:center;
@@ -53,17 +53,6 @@ figcaption{
   font-weight: 400;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
-}
-.welcome{
-  width: 75%;
-  margin: 0 auto;
-  padding-top : 2rem;
-}
-.welcome hr{
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
 }
 .fa-html5{
   color: #e34f26;
@@ -137,6 +126,7 @@ figcaption{
 body.modal-open{
   position:fixed;
   overflow: hidden;
+  width:100%;
 }
 .modal-img{
   display: block;
